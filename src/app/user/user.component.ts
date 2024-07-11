@@ -7,8 +7,7 @@ import { CradComponent } from "../shared/crad/crad.component";
 
 @Component({
   selector: 'app-user',
-  standalone: true,
-  imports: [CradComponent],
+  standalone: false,
   templateUrl: './user.component.html',
   styleUrl: './user.component.css'
 })
